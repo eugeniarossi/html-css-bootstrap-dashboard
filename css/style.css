@@ -8,10 +8,6 @@ DEBUG
 ***************
 */
 
-.ms_debug header {
-    background-color: lightblue;
-}
-
 /*
 ***************
 HEADER
@@ -20,6 +16,7 @@ HEADER
 
 header {
     height: 4.375rem;
+    background-color: var(--ms-primary-color);
 }
 
 /*
@@ -38,6 +35,11 @@ main {
 MAIN > ASIDE
 ***************
 */
+
+aside {
+    background-color: #051e34;
+    background-image: url('../img/sidebar-bg.png');
+}
 
 @media screen and (min-width: 87.5rem) {
     aside {
