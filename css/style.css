@@ -19,6 +19,10 @@ header {
     background-color: var(--ms-primary-color);
 }
 
+#search-form {
+    background-color: #e5e5e5;
+}
+
 /*
 ***************
 MAIN
