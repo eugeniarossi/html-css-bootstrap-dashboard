@@ -1,0 +1,52 @@
+@import url('variables.css');
+@import url('common.css');
+@import url('utilities.css');
+
+/*
+***************
+DEBUG
+***************
+*/
+
+.ms_debug header {
+    background-color: lightblue;
+}
+
+/*
+***************
+HEADER
+***************
+*/
+
+header {
+    height: 4.375rem;
+}
+
+/*
+***************
+MAIN
+***************
+*/
+
+main {
+    height: calc(100% - 4.375rem);
+    width: 100%;
+}
+
+/*
+***************
+MAIN > ASIDE
+***************
+*/
+
+@media screen and (min-width: 87.5rem) {
+    aside {
+        width: 9.375rem;
+    }
+}
+
+/*
+***************
+MAIN > MAIN-VIEW
+***************
+*/
