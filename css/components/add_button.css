@@ -1,0 +1,11 @@
+/*
+components 
+*/ 
+
+.add_button {
+    display: inline-block;
+    padding: .375rem .75rem;
+    border: .0625rem solid currentColor;
+    border-radius: .375rem;
+    cursor: pointer;
+}
