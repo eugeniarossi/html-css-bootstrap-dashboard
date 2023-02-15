@@ -12,6 +12,7 @@ HEADER
 header {
     height: 4.375rem;
     background-color: var(--ms-primary-color);
+    box-shadow: 0px 8px 11px -11px rgba(0,0,0,0.65);
 }
 
 #logo_link img:first-child {
@@ -36,11 +37,11 @@ MAIN > ASIDE
 */
 
 aside {
-    background-color: #051e34;
+    background-color: var(--ms-secondary-color);
     background-image: url('../img/sidebar-bg.png');
 }
 
-aside ul li a > i {
+aside ul li button > i {
     width: 2.1875rem;
     text-align: center;
 }
@@ -81,7 +82,7 @@ MAIN > MAIN-VIEW
 
 @media screen and (min-width: 992px) {
     .offcanvas.offcanvas-end {
-        width: 40%;
+        width: 40.625rem;
     }
 }
 

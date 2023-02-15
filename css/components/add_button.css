@@ -8,3 +8,12 @@ components
     border-radius: .375rem;
     cursor: pointer;
 }
+
+.add_button > button:hover {
+    background-color: white;
+    color: var(--ms-secondary-color);
+}
+
+.ms_clean_input {
+    box-shadow: none;
+}
