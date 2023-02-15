@@ -67,6 +67,15 @@ MAIN > MAIN-VIEW
     background-color: #165bba;
 }
 
+.offcanvas.offcanvas-end {
+    width: 100%;
+}
+@media screen and (min-width: 992px) {
+    .offcanvas.offcanvas-end {
+        width: 40%;
+    }
+}
+
 /* main-view-bottom */
 
 #main_view_bottom .table img {
