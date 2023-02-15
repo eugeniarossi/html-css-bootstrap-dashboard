@@ -55,17 +55,17 @@
                         <div class="d-none d-lg-block">
                             <ul class="d-flex list-unstyled gap-3 mb-0 me-2">
                                 <li>
-                                    <a href="#" class="text-secondary">
+                                    <a href="#" alt="menu" class="text-secondary">
                                         <i class="fa-solid fa-list"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="text-secondary">
+                                    <a href="#" alt="questions" class="text-secondary">
                                         <i class="fa-solid fa-circle-question"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="text-secondary">
+                                    <a href="#" alt="others" class="text-secondary">
                                         <i class="fa-solid fa-ellipsis-vertical"></i>
                                     </a>
                                 </li>
@@ -93,36 +93,44 @@
     <!-- main -->
     <main class="d-flex">
         <!-- aside -->
-        <aside class="h-100 px-4 py-3 d-flex flex-column flex-shrink-0">
+        <aside class="h-100 px-4 py-4 d-flex flex-column flex-shrink-0">
             <!-- aside top -->
             <ul class="list-unstyled">
-                <li class="my-3">
-                    <a href="#" class="d-flex align-items-center text-white text-decoration-none">
-                        <i class="fa-solid fa-house"></i>
-                        <span class="d-none d-lg-block">Home</span>
-                    </a>
+                <li>
+                    <button class="border-0 py-2 w-100">
+                        <a href="#" alt="home" class="d-flex align-items-center text-white text-decoration-none">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="d-none d-lg-block">Home</span>
+                        </a>
+                    </button>
                 </li>
-                <li class="my-3">
-                    <a href="#" class="d-flex align-items-center text-white text-decoration-none">
-                        <i class="fa-solid fa-chart-simple"></i>
-                        <span class="d-none d-lg-block">Stats</span>
-                    </a>
+                <li>
+                    <button class="border-0 py-2 w-100">
+                        <a href="#" alt="stats" class="d-flex align-items-center text-white text-decoration-none">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <span class="d-none d-lg-block">Stats</span>
+                        </a>
+                    </button>
                 </li>
-                <li class="my-3">
-                    <a href="#" class="d-flex align-items-center text-white text-decoration-none">
-                        <i class="fa-solid fa-signal"></i>
-                        <span class="d-none d-lg-block">Signals</span>
-                    </a>
+                <li>
+                    <button class="border-0 py-2 w-100">
+                        <a href="#" alt="signals" class="d-flex align-items-center text-white text-decoration-none">
+                            <i class="fa-solid fa-signal"></i>
+                            <span class="d-none d-lg-block">Signals</span>
+                        </a>
+                    </button>
                 </li>
             </ul>
             <!-- /aside top -->
             <!-- aside bottom -->
             <ul class="list-unstyled mt-auto">
                 <li>
-                    <a href="#" class="d-flex align-items-center text-white text-decoration-none">
-                        <i class="fa-solid fa-gear"></i>
-                        <span class="d-none d-lg-block">Admin</span>
-                    </a>
+                    <button class="border-0 py-2 w-100">
+                        <a href="#" alr="admin" class="d-flex align-items-center text-white text-decoration-none">
+                            <i class="fa-solid fa-gear"></i>
+                            <span class="d-none d-lg-block">Admin</span>
+                        </a>
+                    </button>
                 </li>
             </ul>
             <!-- /aside bottom -->
@@ -134,7 +142,7 @@
             <!-- main-view-top -->
             <div id="main_view_top" class="bg-primary pt-4 pb-5 text-white">
                 <div class="container">
-                    <div class="row justify-content-between align-items-center">
+                    <div class="row">
                         <!-- col -->
                         <div class="col-12 col-md-3 order-md-3">
                             <div class="col_content d-flex flex-wrap gap-2 align-items-center">
@@ -160,13 +168,13 @@
                                         <form>
                                             <div class="container">
                                                 <div class="row">
-                                                    <div class="col-6">
+                                                    <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="name" class="form-label">Nome</label>
                                                             <input type="text" class="form-control" id="name" required>
                                                         </div>
                                                     </div>
-                                                    <div class="col-6">
+                                                    <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="cognome" class="form-label">Cognome</label>
                                                             <input type="text" class="form-control" id="cognome"
@@ -174,7 +182,7 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="col-6">
+                                                    <div class="col-12 col-md-6">
                                                         <label for="email" class="form-label">Email</label>
                                                         <div class="input-group mb-3">
                                                             <span class="input-group-text" id="email">@</span>
@@ -182,13 +190,13 @@
                                                                 aria-label="Password" aria-describedby="basic-addon1">
                                                         </div>
                                                     </div>
-                                                    <div class="col-6">
+                                                    <div class="col-12 col-md-6">
                                                         <label for="inputPassword5" class="form-label">Password</label>
                                                         <input type="password" id="inputPassword5" class="form-control"
                                                             aria-describedby="passwordHelpBlock">
                                                     </div>
 
-                                                    <div class="col-6">
+                                                    <div class="col-12 col-md-6">
                                                         <label for="email" class="form-label">Indirizzo Email</label>
                                                         <div class="input-group mb-3">
                                                             <span class="input-group-text" id="email">@</span>
@@ -196,7 +204,7 @@
                                                                 aria-label="Password" aria-describedby="basic-addon1">
                                                         </div>
                                                     </div>
-                                                    <div class="col-6">
+                                                    <div class="col-12 col-md-6">
                                                         <label for="inputPassword5" class="form-label">Password</label>
                                                         <input type="password" id="inputPassword5" class="form-control"
                                                             aria-describedby="passwordHelpBlock">
@@ -209,13 +217,13 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="col-6">
+                                                    <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="citta" class="form-label">Città</label>
                                                             <input type="text" class="form-control" id="citta">
                                                         </div>
                                                     </div>
-                                                    <div class="col-4">
+                                                    <div class="col-12 col-md-4">
                                                         <div class="mb-3">
                                                             <label for="stato" class="form-label">Stato</label>
                                                             <select class="form-select"
@@ -227,7 +235,7 @@
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-12 col-md-2">
                                                         <div class="mb-3">
                                                             <label for="cap" class="form-label">CAP</label>
                                                             <input type="text" class="form-control" id="cap">
@@ -268,32 +276,34 @@
                         </div>
                         <!-- /col -->
                         <!-- col -->
-                        <div class="col-12 col-md-6 order-md-1">
+                        <div class="col-12 col-md-6 order-md-1 my-4 my-md-0">
                             <div class="col_content">
                                 <div>
                                     <h3 class="d-inline-block me-1">Boolean</h3>
                                     <span class="badge rounded-pill">
-                                        <a href="#" class="text-white text-decoration-none">Piano blaze</a>
+                                        <a href="#" alt="piano blaze" class="text-white text-decoration-none">Piano blaze</a>
                                     </span>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
                                     <span class="badge rounded-pill">
-                                        <a href="#" class="text-white text-decoration-none">3 app</a>
+                                        <a href="#" alt="app" class="text-white text-decoration-none">3 app</a>
                                     </span>
                                     <small>
                                         <i class="fa-solid fa-angles-right"></i>
                                     </small>
                                     <span class="badge rounded-pill d-lg-none">
-                                        <i class="fa-solid fa-plus"></i>
+                                        <a href="#" alt="plus" class="text-white text-decoration-none">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </a>
                                     </span>
                                     <span class="badge rounded-pill d-none d-lg-block">
-                                        <a href="#" class="text-white text-decoration-none">Boolean mobile app</a>
+                                        <a href="#" alt="mobile app" class="text-white text-decoration-none">Boolean mobile app</a>
                                     </span>
                                     <span class="badge rounded-pill d-none d-lg-block">
-                                        <a href="#" class="text-white text-decoration-none">Boolean web app</a>
+                                        <a href="#" alt="web app" class="text-white text-decoration-none">Boolean web app</a>
                                     </span>
                                     <span class="badge rounded-pill d-none d-lg-block">
-                                        <a href="#" class="text-white text-decoration-none">Boolean blog app</a>
+                                        <a href="#" alt="blog app" class="text-white text-decoration-none">Boolean blog app</a>
                                     </span>
                                 </div>
                             </div>
@@ -325,11 +335,11 @@
                                 </div>
                                 <div class="card-body">
                                     <!-- table -->
-                                    <table class="table">
+                                    <table class="table table-hover">
                                         <!-- table head -->
                                         <thead>
                                             <tr>
-                                                <th scope="col" class="col-6 col-lg-5 col-xl-7 fw-normal">Nome</th>
+                                                <th scope="col" class="col-3 col-sm-6 col-lg-5 col-xl-7 fw-normal">Nome</th>
                                                 <th scope="col" class="col-auto fw-normal text-center">
                                                     <div class="ms_hidden d-none d-md-block">Data inizio</div>
                                                 </th>
@@ -346,7 +356,7 @@
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2 align-items-center">
+                                                    <div class="ms_class d-flex gap-2 align-items-center flex-wrap">
                                                         <img src="img/class-avatar.jpg" alt="class">
                                                         <span class="fw-normal">Classe 75</span>
                                                     </div>
@@ -373,7 +383,7 @@
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2 align-items-center">
+                                                    <div class="ms_class d-flex gap-2 align-items-center flex-wrap">
                                                         <img src="img/class-avatar.jpg" alt="class">
                                                         <span class="fw-normal">Classe 76</span>
                                                     </div>
@@ -400,7 +410,7 @@
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2 align-items-center">
+                                                    <div class="ms_class d-flex gap-2 align-items-center flex-wrap">
                                                         <img src="img/class-avatar.jpg" alt="class">
                                                         <span class="fw-normal">Classe 77</span>
                                                     </div>
@@ -427,7 +437,7 @@
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2 align-items-center">
+                                                    <div class="ms_class d-flex gap-2 align-items-center flex-wrap">
                                                         <img src="img/class-avatar.jpg" alt="class">
                                                         <span class="fw-normal">Classe 78</span>
                                                     </div>
@@ -454,7 +464,7 @@
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2 align-items-center">
+                                                    <div class="ms_class d-flex gap-2 align-items-center flex-wrap">
                                                         <img src="img/class-avatar.jpg" alt="class">
                                                         <span class="fw-normal">Classe 79</span>
                                                     </div>
@@ -481,7 +491,7 @@
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2 align-items-center">
+                                                    <div class="ms_class d-flex gap-2 align-items-center flex-wrap">
                                                         <img src="img/class-avatar.jpg" alt="class">
                                                         <span class="fw-normal">Classe 80</span>
                                                     </div>
@@ -508,7 +518,7 @@
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2 align-items-center">
+                                                    <div class="ms_class d-flex gap-2 align-items-center flex-wrap">
                                                         <img src="img/class-avatar.jpg" alt="class">
                                                         <span class="fw-normal">Classe 81</span>
                                                     </div>
@@ -535,7 +545,7 @@
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2 align-items-center">
+                                                    <div class="ms_class d-flex gap-2 align-items-center flex-wrap">
                                                         <img src="img/class-avatar.jpg" alt="class">
                                                         <span class="fw-normal">Classe 82</span>
                                                     </div>
@@ -647,7 +657,7 @@
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox"
                                                     id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
+                        flex-wrap                         <label class="form-check-label" for="flexCheckDefault">
                                                     Lezione su Bootstrap 5 in classe #75
                                                 </label>
                                             </div>
@@ -682,7 +692,7 @@
                                             <li class="list-group-item">Marzo: 1500</li>
                                         </ul>
                                         <div class="card-body">
-                                            <a href="#" class="card-link">Visualizza report approfondito</a>
+                                            <a href="#" alt="report" class="card-link">Visualizza report approfondito</a>
                                         </div>
                                     </div>
                                 </div>
