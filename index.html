@@ -21,85 +21,104 @@
 <body class="ms_debug">
     <!-- header -->
     <header class="bg-light d-flex align-items-center">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white flex-grow-1">
-            <div class="container-fluid">
-              <a class="navbar-brand p-0" href="#" id="logo_link">
-                <img src="img/mobile-logo.png" alt="mobile logo" class="mobile_logo img-fluid d-xxl-none">
-                <img src="img/logo.svg" alt="logo" class="desktop_logo img-fluid d-none d-xxl-block">
-              </a>
-              <form id="search-form" class="d-flex flex-grow-1 rounded" role="search">
-                <button class="btn btn-outline-success border-0" type="submit">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-                <input class="form-control me-2 border-0 bg-transparent" type="search" placeholder="Search" aria-label="Search">
-              </form>
-              <div class="ms-3 d-none d-xxl-block" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#">
-                        <i class="fa-solid fa-list"></i>
+        <div class="container-fluid bg-white">
+            <div class="row align-items-center">
+                <!-- logo -->
+                <div class="col-auto">
+                    <a href="#" id="logo_link">
+                        <img src="img/mobile-logo.png" alt="mobile logo" class="d-lg-none">
+                        <img src="img/logo.svg" alt="logo" class="d-none d-lg-block">
                     </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#">
-                        <i class="fa-solid fa-circle-question"></i>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#">
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div id="bell" class="ms-4 ms-xxl-2">
-                <a href="#" class="text-decoration-none text-warning">
-                    <i class="fa-solid fa-bell"></i>
-                </a>
-              </div>
+                </div>
+                <!-- /logo -->
+                <!-- search form -->
+                <div class="col">
+                    <form class="container-fluid px-0">
+                        <div class="input-group">
+                          <span class="input-group-text" id="basic-addon1">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </span>
+                          <input type="text" class="form-control" placeholder="Prova a cercare: lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </form>                    
+                </div>
+                <!-- /search form -->
+                <!-- nav -->
+                <div class="col-auto">
+                    <nav class="d-flex align-items-center">
+                        <div class="d-none d-lg-block">
+                            <ul class="d-flex list-unstyled gap-3 mb-0 me-2">
+                                <li>
+                                    <a href="#">
+                                    <i class="fa-solid fa-list"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <i class="fa-solid fa-circle-question"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="border-0 bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <!-- /nav -->
             </div>
-        </nav>
+        </div>
     </header>
     <!-- /header -->
     
     <!-- main -->
     <main class="d-flex">
         <!-- aside -->
-        <aside class="h-100 px-4 py-3 mx-auto">
-            <div class="h-100 d-flex flex-column">
-                <!-- aside top -->
-                <div id="aside_top">
-                    <ul class="list-unstyled">
-                        <li class="my-3">
-                            <a href="#" class="d-flex align-items-center gap-3 text-white text-decoration-none">
-                                <i class="fa-solid fa-house"></i>
-                                <span class="d-none d-xxl-block">Home</span>
-                            </a>
-                        </li>
-                        <li class="mb-3">
-                            <a href="#" class="d-flex align-items-center gap-3 text-white text-decoration-none">
-                                <i class="fa-solid fa-chart-simple"></i>
-                                <span class="d-none d-xxl-block">Stats</span>
-                            </a>
-                        </li>
-                        <li class="mb-3">
-                            <a href="#" class="d-flex align-items-center gap-3 text-white text-decoration-none">
-                                <i class="fa-solid fa-signal"></i>
-                                <span class="d-none d-xxl-block">Signals</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /aside top -->
-                <!-- aside bottom -->
-                <div id="admin" class="mt-auto">
-                    <a href="#" class="d-flex align-items-center gap-3 text-white text-decoration-none">
-                        <i class="fa-solid fa-gear"></i>
-                        <span class="d-none d-xxl-block">Admin</span>
+        <aside class="h-100 px-4 py-3 d-flex flex-column flex-shrink-0">
+            <!-- aside top -->
+            <ul class="list-unstyled">
+                <li class="my-3">
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="d-none d-lg-block">Home</span>
                     </a>
-                </div>
-                <!-- /aside bottom -->
-            </div>
+                </li>
+                <li class="my-3">
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span class="d-none d-lg-block">Stats</span>
+                    </a>
+                </li>
+                <li class="my-3">
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none">
+                        <i class="fa-solid fa-signal"></i>
+                        <span class="d-none d-lg-block">Signals</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- /aside top -->
+            <!-- aside bottom -->
+            <ul class="list-unstyled mt-auto">
+                <li>
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="d-none d-lg-block">Admin</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- /aside bottom -->
         </aside>
         <!-- /aside -->
 
@@ -138,6 +157,7 @@
                     </div>
                 </div>
             </div>
+
             <div id="main_view_bottom" class="">
 
             </div>
