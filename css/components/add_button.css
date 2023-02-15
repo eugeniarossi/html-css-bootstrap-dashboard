@@ -9,9 +9,3 @@ components
     border-radius: .375rem;
     cursor: pointer;
 }
-
-.rounded_button {
-    padding: .35em;
-    border-radius: 50%;
-    background-color: #165bba;
-}
