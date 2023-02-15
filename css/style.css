@@ -63,3 +63,7 @@ MAIN > MAIN-VIEW
 ***************
 */
 /* main-view-top */
+
+#main_view_top .badge {
+    background-color: #165bba;
+}
