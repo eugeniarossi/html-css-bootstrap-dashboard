@@ -132,7 +132,7 @@
         <!-- main-view -->
         <div id="main_view" class="h-100 flex-grow-1 overflow-auto">
             <!-- main-view-top -->
-            <div id="main_view_top" class="bg-primary pt-4 pb-5">
+            <div id="main_view_top" class="bg-primary pt-4 pb-5 text-white">
                 <div class="container">
                     <div class="row justify-content-between align-items-center">
                         <!-- col -->
@@ -271,20 +271,22 @@
                         <div class="col-12 col-md-6 order-md-1">
                             <div class="col_content">
                                 <div>
-                                    <h3 class="d-inline-block">Boolean</h3>
-                                    <span class="badge rounded-pill text-bg-secondary">Piano blaze</span>
+                                    <h3 class="d-inline-block me-1">Boolean</h3>
+                                    <span class="badge rounded-pill">Piano blaze</span>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <span class="badge rounded-pill text-bg-secondary">3 app</span>
-                                    <i class="fa-solid fa-angles-right"></i>
-                                    <span class="badge rounded-pill text-bg-secondary d-lg-none">
+                                    <span class="badge rounded-pill">3 app</span>
+                                    <small>
+                                        <i class="fa-solid fa-angles-right"></i>
+                                    </small>
+                                    <span class="badge rounded-pill d-lg-none">
                                         <i class="fa-solid fa-plus"></i>
                                     </span>
-                                    <span class="badge rounded-pill text-bg-secondary d-none d-lg-block">Boolean mobile
+                                    <span class="badge rounded-pill d-none d-lg-block">Boolean mobile
                                         app</span>
-                                    <span class="badge rounded-pill text-bg-secondary d-none d-lg-block">Boolean web
+                                    <span class="badge rounded-pill d-none d-lg-block">Boolean web
                                         app</span>
-                                    <span class="badge rounded-pill text-bg-secondary d-none d-lg-block">Boolean blog
+                                    <span class="badge rounded-pill d-none d-lg-block">Boolean blog
                                         app</span>
                                 </div>
                             </div>
@@ -304,7 +306,7 @@
             <!-- /main-view-top -->
 
             <!-- main-view-bottom -->
-            <div id="main_view_bottom" class="py-4 bg-light">
+            <div id="main_view_bottom" class="py-4 bg-light text-dark">
                 <div class="container-fluid">
                     <div class="row">
                         <!-- big-col -->
@@ -312,7 +314,7 @@
                             <!-- next-classes-card -->
                             <div class="card mb-4">
                                 <div class="card-header">
-                                    Prossime classi
+                                    <h3>Prossime classi</h3>
                                 </div>
                                 <div class="card-body">
                                     <!-- table -->
@@ -320,15 +322,15 @@
                                         <!-- table head -->
                                         <thead>
                                             <tr>
-                                                <th scope="col" class="col-6 col-lg-5 col-xl-7">Nome</th>
-                                                <th scope="col" class="col-auto">
+                                                <th scope="col" class="col-6 col-lg-5 col-xl-7 fw-normal">Nome</th>
+                                                <th scope="col" class="col-auto fw-normal text-center">
                                                     <div class="ms_hidden d-none d-md-block">Data inizio</div>
                                                 </th>
-                                                <th scope="col" class="col-auto">
+                                                <th scope="col" class="col-auto fw-normal text-center">
                                                     <div class="ms_hidden d-none d-md-block">ROI</div>
                                                 </th>
-                                                <th scope="col" class="col-auto">Stato</th>
-                                                <th scope="col" class="col-auto">Azioni</th>
+                                                <th scope="col" class="col-auto fw-normal text-center">Stato</th>
+                                                <th scope="col" class="col-auto fw-normal text-center">Azioni</th>
                                             </tr>
                                         </thead>
                                         <!-- /table head -->
@@ -337,184 +339,216 @@
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2">
+                                                    <div class="ms_class d-flex gap-2 align-items-center">
                                                         <img src="img/class-avatar.jpg" alt="class">
-                                                        <span>Classe 75</span>
+                                                        <span class="fw-normal">Classe 75</span>
                                                     </div>
                                                 </th>
-                                                <td>
+                                                <td class="text-center">
                                                     <div class="ms_hidden d-none d-md-block">15 Feb 2021</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <div class="ms_hidden d-none d-md-block">20%</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <span class="badge text-bg-success bg-success">Done</span>
                                                 </td>
-                                                <td>
-                                                    <i class="fa-solid fa-pencil"></i>
-                                                    <i class="fa-solid fa-trash"></i>
+                                                <td class="text-center">
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-pencil text-secondary"></i>
+                                                    </button>
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-trash text-secondary"></i>
+                                                    </button>
                                                 </td>
                                             </tr>
                                             <!-- /row -->
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2">
+                                                    <div class="ms_class d-flex gap-2 align-items-center">
                                                         <img src="img/class-avatar.jpg" alt="class">
-                                                        <span>Classe 75</span>
+                                                        <span class="fw-normal">Classe 76</span>
                                                     </div>
                                                 </th>
-                                                <td>
-                                                    <div class="ms_hidden d-none d-md-block">15 Feb 2021</div>
+                                                <td class="text-center">
+                                                    <div class="ms_hidden d-none d-md-block">16 Feb 2021</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <div class="ms_hidden d-none d-md-block">20%</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <span class="badge text-bg-success bg-success">Done</span>
                                                 </td>
-                                                <td>
-                                                    <i class="fa-solid fa-pencil"></i>
-                                                    <i class="fa-solid fa-trash"></i>
+                                                <td class="text-center">
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-pencil text-secondary"></i>
+                                                    </button>
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-trash text-secondary"></i>
+                                                    </button>
                                                 </td>
                                             </tr>
                                             <!-- /row -->
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2">
+                                                    <div class="ms_class d-flex gap-2 align-items-center">
                                                         <img src="img/class-avatar.jpg" alt="class">
-                                                        <span>Classe 75</span>
+                                                        <span class="fw-normal">Classe 77</span>
                                                     </div>
                                                 </th>
-                                                <td>
-                                                    <div class="ms_hidden d-none d-md-block">15 Feb 2021</div>
+                                                <td class="text-center">
+                                                    <div class="ms_hidden d-none d-md-block">17 Feb 2021</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <div class="ms_hidden d-none d-md-block">20%</div>
                                                 </td>
-                                                <td>
-                                                    <span class="badge text-bg-success bg-success">Done</span>
+                                                <td class="text-center">
+                                                    <span class="badge text-bg-warning">Process</span>
                                                 </td>
-                                                <td>
-                                                    <i class="fa-solid fa-pencil"></i>
-                                                    <i class="fa-solid fa-trash"></i>
+                                                <td class="text-center">
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-pencil text-secondary"></i>
+                                                    </button>
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-trash text-secondary"></i>
+                                                    </button>
                                                 </td>
                                             </tr>
                                             <!-- /row -->
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2">
+                                                    <div class="ms_class d-flex gap-2 align-items-center">
                                                         <img src="img/class-avatar.jpg" alt="class">
-                                                        <span>Classe 75</span>
+                                                        <span class="fw-normal">Classe 78</span>
                                                     </div>
                                                 </th>
-                                                <td>
-                                                    <div class="ms_hidden d-none d-md-block">15 Feb 2021</div>
+                                                <td class="text-center">
+                                                    <div class="ms_hidden d-none d-md-block">18 Feb 2021</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <div class="ms_hidden d-none d-md-block">20%</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <span class="badge text-bg-success bg-success">Done</span>
                                                 </td>
-                                                <td>
-                                                    <i class="fa-solid fa-pencil"></i>
-                                                    <i class="fa-solid fa-trash"></i>
+                                                <td class="text-center">
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-pencil text-secondary"></i>
+                                                    </button>
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-trash text-secondary"></i>
+                                                    </button>
                                                 </td>
                                             </tr>
                                             <!-- /row -->
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2">
+                                                    <div class="ms_class d-flex gap-2 align-items-center">
                                                         <img src="img/class-avatar.jpg" alt="class">
-                                                        <span>Classe 75</span>
+                                                        <span class="fw-normal">Classe 79</span>
                                                     </div>
                                                 </th>
-                                                <td>
-                                                    <div class="ms_hidden d-none d-md-block">15 Feb 2021</div>
+                                                <td class="text-center">
+                                                    <div class="ms_hidden d-none d-md-block">19 Feb 2021</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <div class="ms_hidden d-none d-md-block">20%</div>
                                                 </td>
-                                                <td>
-                                                    <span class="badge text-bg-success bg-success">Done</span>
+                                                <td class="text-center">
+                                                    <span class="badge text-bg-danger">Failed</span>
                                                 </td>
-                                                <td>
-                                                    <i class="fa-solid fa-pencil"></i>
-                                                    <i class="fa-solid fa-trash"></i>
+                                                <td class="text-center">
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-pencil text-secondary"></i>
+                                                    </button>
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-trash text-secondary"></i>
+                                                    </button>
                                                 </td>
                                             </tr>
                                             <!-- /row -->
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2">
+                                                    <div class="ms_class d-flex gap-2 align-items-center">
                                                         <img src="img/class-avatar.jpg" alt="class">
-                                                        <span>Classe 75</span>
+                                                        <span class="fw-normal">Classe 80</span>
                                                     </div>
                                                 </th>
-                                                <td>
-                                                    <div class="ms_hidden d-none d-md-block">15 Feb 2021</div>
+                                                <td class="text-center">
+                                                    <div class="ms_hidden d-none d-md-block">20 Feb 2021</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <div class="ms_hidden d-none d-md-block">20%</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <span class="badge text-bg-success bg-success">Done</span>
                                                 </td>
-                                                <td>
-                                                    <i class="fa-solid fa-pencil"></i>
-                                                    <i class="fa-solid fa-trash"></i>
+                                                <td class="text-center">
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-pencil text-secondary"></i>
+                                                    </button>
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-trash text-secondary"></i>
+                                                    </button>
                                                 </td>
                                             </tr>
                                             <!-- /row -->
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2">
+                                                    <div class="ms_class d-flex gap-2 align-items-center">
                                                         <img src="img/class-avatar.jpg" alt="class">
-                                                        <span>Classe 75</span>
+                                                        <span class="fw-normal">Classe 81</span>
                                                     </div>
                                                 </th>
-                                                <td>
-                                                    <div class="ms_hidden d-none d-md-block">15 Feb 2021</div>
+                                                <td class="text-center">
+                                                    <div class="ms_hidden d-none d-md-block">21 Feb 2021</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <div class="ms_hidden d-none d-md-block">20%</div>
                                                 </td>
-                                                <td>
-                                                    <span class="badge text-bg-success bg-success">Done</span>
+                                                <td class="text-center">
+                                                    <span class="badge text-bg-danger">Failed</span>
                                                 </td>
-                                                <td>
-                                                    <i class="fa-solid fa-pencil"></i>
-                                                    <i class="fa-solid fa-trash"></i>
+                                                <td class="text-center">
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-pencil text-secondary"></i>
+                                                    </button>
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-trash text-secondary"></i>
+                                                    </button>
                                                 </td>
                                             </tr>
                                             <!-- /row -->
                                             <!-- row -->
                                             <tr>
                                                 <th scope="row">
-                                                    <div class="ms_class d-flex gap-2">
+                                                    <div class="ms_class d-flex gap-2 align-items-center">
                                                         <img src="img/class-avatar.jpg" alt="class">
-                                                        <span>Classe 75</span>
+                                                        <span class="fw-normal">Classe 82</span>
                                                     </div>
                                                 </th>
-                                                <td>
-                                                    <div class="ms_hidden d-none d-md-block">15 Feb 2021</div>
+                                                <td class="text-center">
+                                                    <div class="ms_hidden d-none d-md-block">22 Feb 2021</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <div class="ms_hidden d-none d-md-block">20%</div>
                                                 </td>
-                                                <td>
+                                                <td class="text-center">
                                                     <span class="badge text-bg-success bg-success">Done</span>
                                                 </td>
-                                                <td>
-                                                    <i class="fa-solid fa-pencil"></i>
-                                                    <i class="fa-solid fa-trash"></i>
+                                                <td class="text-center">
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-pencil text-secondary"></i>
+                                                    </button>
+                                                    <button class="border-1 border-secondary rounded-1">
+                                                        <i class="fa-solid fa-trash text-secondary"></i>
+                                                    </button>
                                                 </td>
                                             </tr>
                                             <!-- /row -->
@@ -528,7 +562,7 @@
                             <!-- FAQ-card -->
                             <div class="card">
                                 <div class="card-header">
-                                    FAQ
+                                    <h3>F.A.Q.</h3>
                                 </div>
                                 <div class="card-body">
                                     <!-- accordion -->
@@ -588,7 +622,7 @@
                             <!-- todo-card -->
                             <div class="card mb-4">
                                 <div class="card-header">
-                                    Todo
+                                    <h3>Todo</h3>
                                 </div>
                                 <div class="card-body">
                                     <!-- check form -->
