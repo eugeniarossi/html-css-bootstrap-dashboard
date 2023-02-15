@@ -62,8 +62,20 @@ aside ul li a > i {
 MAIN > MAIN-VIEW
 ***************
 */
+
+#main_view {
+    height: calc(100% - 4.375rem);
+}
+
 /* main-view-top */
 
 #main_view_top .badge {
     background-color: #165bba;
+}
+
+/* main-view-bottom */
+
+#main_view_bottom .table img {
+    width: 1.5625rem;
+    background-color: white;
 }
