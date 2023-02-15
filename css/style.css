@@ -20,10 +20,6 @@ header {
     background-color: var(--ms-primary-color);
 }
 
-#search-form {
-    background-color: #e5e5e5;
-}
-
 #logo_link img:first-child {
     height: 2.6875rem;
 }
