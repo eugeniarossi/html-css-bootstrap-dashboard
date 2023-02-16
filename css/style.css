@@ -92,5 +92,6 @@ MAIN > MAIN-VIEW
 }
 
 #main_view_bottom .table button {
+    border-width: .0625rem;
     border-style: solid;
 }
