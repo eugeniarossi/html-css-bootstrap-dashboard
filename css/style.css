@@ -27,7 +27,6 @@ MAIN
 
 main {
     height: calc(100% - 4.375rem);
-    width: 100%;
 }
 
 /*
@@ -41,16 +40,16 @@ aside {
     background-image: url('../img/sidebar-bg.png');
 }
 
-aside ul li button > i {
+aside ul li a > i {
     width: 2.1875rem;
     text-align: center;
 }
 
-aside ul li button {
+aside ul li a {
     background-color: transparent;
 }
 
-aside ul li button:hover {
+aside ul li a:hover {
     background-color: rgba(255, 255, 255, 0.5); 
 }
 

@@ -93,36 +93,36 @@
     <!-- main -->
     <main class="d-flex">
         <!-- aside -->
-        <aside class="h-100 px-4 py-4 d-flex flex-column flex-shrink-0">
+        <aside class="px-4 py-4 d-flex flex-column flex-shrink-0">
             <!-- aside top -->
             <ul class="list-unstyled">
                 <li>
-                    <button class="text-white border-0 py-2 w-100 d-flex align-items-center">
+                    <a href="#" alt="home" class="text-decoration-none text-white border-0 py-2 w-100 d-flex align-items-center">
                         <i class="fa-solid fa-house"></i>
                         <span class="d-none d-lg-block">Home</span>
-                    </button>
+                    </a>
                 </li>
                 <li>
-                    <button class="text-white border-0 py-2 w-100 d-flex align-items-center">
+                    <a href="#" alt="stats" class="text-decoration-none text-white border-0 py-2 w-100 d-flex align-items-center">
                         <i class="fa-solid fa-chart-simple"></i>
                         <span class="d-none d-lg-block">Stats</span>
-                    </button>
+                    </a>
                 </li>
                 <li>
-                    <button class="text-white border-0 py-2 w-100 d-flex align-items-center">
+                    <a href="#" alt="signals" class="text-decoration-none text-white border-0 py-2 w-100 d-flex align-items-center">
                         <i class="fa-solid fa-signal"></i>
                         <span class="d-none d-lg-block">Signals</span>
-                    </button>
+                    </a>
                 </li>
             </ul>
             <!-- /aside top -->
             <!-- aside bottom -->
             <ul class="list-unstyled mt-auto">
                 <li>
-                    <button class="text-white border-0 py-2 w-100 d-flex align-items-center">
+                    <a href="#" alt="admin" class="text-decoration-none text-white border-0 py-2 w-100 d-flex align-items-center">
                         <i class="fa-solid fa-gear"></i>
                         <span class="d-none d-lg-block">Admin</span>
-                    </button>
+                    </a>
                 </li>
             </ul>
             <!-- /aside bottom -->
@@ -130,10 +130,10 @@
         <!-- /aside -->
 
         <!-- main-view -->
-        <div id="main_view" class="h-100 flex-grow-1 overflow-auto">
+        <div id="main_view" class="h-100 flex-grow-1 overflow-y-auto">
             <!-- main-view-top -->
             <div id="main_view_top" class="bg-primary pt-4 pb-5 text-white">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <!-- col -->
                         <div class="col-12 col-md-3 order-md-3">
@@ -270,8 +270,8 @@
                         <!-- col -->
                         <div class="col-12 col-md-6 order-md-1 my-4 my-md-0">
                             <div class="col_content">
-                                <div>
-                                    <h3 class="d-inline-block me-1">Boolean</h3>
+                                <div class="mb-2">
+                                    <h3 class="d-inline-block me-1 mb-0">Boolean</h3>
                                     <span class="badge rounded-pill">
                                         <a href="#" alt="piano blaze" class="text-white text-decoration-none">Piano
                                             blaze</a>
@@ -327,7 +327,7 @@
                             <!-- next-classes-card -->
                             <div class="card mb-4">
                                 <div class="card-header">
-                                    <h3>Prossime classi</h3>
+                                    <h3 class="mb-0">Prossime classi</h3>
                                 </div>
                                 <div class="card-body">
                                     <!-- table -->
@@ -337,11 +337,11 @@
                                             <tr>
                                                 <th scope="col" class="col-3 col-sm-6 col-lg-5 col-xl-7 fw-normal">Nome
                                                 </th>
-                                                <th scope="col" class="col-auto fw-normal text-center">
-                                                    <div class="ms_hidden d-none d-md-block">Data inizio</div>
+                                                <th scope="col" class="col-auto fw-normal text-center d-none d-md-table-cell">
+                                                    Data inizio
                                                 </th>
-                                                <th scope="col" class="col-auto fw-normal text-center">
-                                                    <div class="ms_hidden d-none d-md-block">ROI</div>
+                                                <th scope="col" class="col-auto fw-normal text-center d-none d-md-table-cell">
+                                                    ROI
                                                 </th>
                                                 <th scope="col" class="col-auto fw-normal text-center">Stato</th>
                                                 <th scope="col" class="col-auto fw-normal text-center">Azioni</th>
@@ -358,11 +358,11 @@
                                                         <span class="fw-normal">Classe 75</span>
                                                     </div>
                                                 </th>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">15 Feb 2021</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    15 Feb 2021
                                                 </td>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">20%</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    20%
                                                 </td>
                                                 <td class="text-center">
                                                     <span class="badge text-bg-success bg-success">Done</span>
@@ -385,11 +385,11 @@
                                                         <span class="fw-normal">Classe 76</span>
                                                     </div>
                                                 </th>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">16 Feb 2021</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    16 Feb 2021
                                                 </td>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">20%</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    20%
                                                 </td>
                                                 <td class="text-center">
                                                     <span class="badge text-bg-success bg-success">Done</span>
@@ -412,11 +412,11 @@
                                                         <span class="fw-normal">Classe 77</span>
                                                     </div>
                                                 </th>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">17 Feb 2021</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    17 Feb 2021
                                                 </td>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">20%</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    20%
                                                 </td>
                                                 <td class="text-center">
                                                     <span class="badge text-bg-warning">Process</span>
@@ -439,11 +439,11 @@
                                                         <span class="fw-normal">Classe 78</span>
                                                     </div>
                                                 </th>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">18 Feb 2021</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    18 Feb 2021
                                                 </td>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">20%</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    20%
                                                 </td>
                                                 <td class="text-center">
                                                     <span class="badge text-bg-success bg-success">Done</span>
@@ -466,11 +466,11 @@
                                                         <span class="fw-normal">Classe 79</span>
                                                     </div>
                                                 </th>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">19 Feb 2021</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    19 Feb 2021
                                                 </td>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">20%</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    20%
                                                 </td>
                                                 <td class="text-center">
                                                     <span class="badge text-bg-danger">Failed</span>
@@ -493,11 +493,11 @@
                                                         <span class="fw-normal">Classe 80</span>
                                                     </div>
                                                 </th>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">20 Feb 2021</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    20 Feb 2021
                                                 </td>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">20%</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    20%
                                                 </td>
                                                 <td class="text-center">
                                                     <span class="badge text-bg-success bg-success">Done</span>
@@ -520,11 +520,11 @@
                                                         <span class="fw-normal">Classe 81</span>
                                                     </div>
                                                 </th>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">21 Feb 2021</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    21 Feb 2021
                                                 </td>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">20%</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    20%
                                                 </td>
                                                 <td class="text-center">
                                                     <span class="badge text-bg-danger">Failed</span>
@@ -547,11 +547,11 @@
                                                         <span class="fw-normal">Classe 82</span>
                                                     </div>
                                                 </th>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">22 Feb 2021</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    22 Feb 2021
                                                 </td>
-                                                <td class="text-center">
-                                                    <div class="ms_hidden d-none d-md-block">20%</div>
+                                                <td class="text-center d-none d-md-table-cell">
+                                                    20%
                                                 </td>
                                                 <td class="text-center">
                                                     <span class="badge text-bg-success bg-success">Done</span>
@@ -576,7 +576,7 @@
                             <!-- FAQ-card -->
                             <div class="card">
                                 <div class="card-header">
-                                    <h3>F.A.Q.</h3>
+                                    <h3 class="mb-0">F.A.Q.</h3>
                                 </div>
                                 <div class="card-body">
                                     <!-- accordion -->
@@ -635,9 +635,9 @@
                         <!-- small-col -->
                         <div class="col-12 col-lg-4">
                             <!-- todo-card -->
-                            <div class="card mb-4">
+                            <div class="card my-4 mt-md-0">
                                 <div class="card-header">
-                                    <h3>Todo</h3>
+                                    <h3 class="mb-0">Todo</h3>
                                 </div>
                                 <div class="card-body">
                                     <!-- check form -->
