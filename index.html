@@ -52,37 +52,35 @@
                 <!-- nav -->
                 <div class="col-auto">
                     <nav class="d-flex align-items-center">
-                        <div class="d-none d-lg-block">
-                            <ul class="d-flex list-unstyled gap-3 mb-0 me-2">
-                                <li>
-                                    <a href="#" alt="menu" class="text-secondary">
-                                        <i class="fa-solid fa-list"></i>
+                        <ul class="d-flex list-unstyled gap-3 mb-0 me-2">
+                            <li class="d-none d-lg-block">
+                                <a href="#" alt="menu" class="text-secondary">
+                                    <i class="fa-solid fa-list"></i>
+                                </a>
+                            </li>
+                            <li class="d-none d-lg-block">
+                                <a href="#" alt="questions" class="text-secondary">
+                                    <i class="fa-solid fa-circle-question"></i>
+                                </a>
+                            </li>
+                            <li class="d-none d-lg-block">
+                                <a href="#" alt="others" class="text-secondary">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a class="text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-bell"></i>
                                     </a>
-                                </li>
-                                <li>
-                                    <a href="#" alt="questions" class="text-secondary">
-                                        <i class="fa-solid fa-circle-question"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" alt="others" class="text-secondary">
-                                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <div class="dropdown">
-                                        <a class="text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <i class="fa-solid fa-bell"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Profilo</a></li>
-                                            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                                            <li><a class="dropdown-item" href="#">Logout</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                        <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
                     </nav>
                 </div>
                 <!-- /nav -->
@@ -369,7 +367,7 @@
                                                     <span class="badge text-bg-success bg-success">Done</span>
                                                 </td>
                                                 <td class="text-center">
-                                                    <button class="border-1 border-secondary rounded-1">
+                                                    <button class="border-1 border-secondary rounded-1 border-">
                                                         <i class="fa-solid fa-pencil text-secondary"></i>
                                                     </button>
                                                     <button class="border-1 border-secondary rounded-1">
